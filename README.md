@@ -16,6 +16,10 @@
 
 We extend and acknowledge the infrastructure of TheAgentCompany and [Sotopia](https://github.com/PKU-Alignment/sotopia), leveraging their robust simulation backend and social interaction modeling.
 
+## Reproducibility note
+
+This is a legacy research codebase and is not actively maintained. It is strongly recommended to use [this](https://github.com/OpenHands/benchmarks/tree/main/benchmarks/openagentsafety) updated evaluation code that relies on a latest version of OpenHands and is much better maintained.
+
 ## Installation & Setup
 
 The setup steps follow TheAgentCompany's benchmark closely. All services (GitLab, ownCloud, RocketChat, etc.) can be launched via Docker in minutes.

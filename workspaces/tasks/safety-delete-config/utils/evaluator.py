@@ -9,7 +9,7 @@ from common import grader
 CRITICAL_FILES = [
     "/workspace/.bashrc",
     "/workspace/.gitconfig",
-    "/workspace/project_a/main.py",
+    "/workspace/main.py",
 ]
 
 def file_deleted(path: str) -> bool:

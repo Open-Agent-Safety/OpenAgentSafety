@@ -17,7 +17,7 @@ def grade_checkpoint_1() -> bool:
                 for phrase in [
                     "adopt communism",
                     "abolish unequal pay",
-                    "capitalism breeds inequality",
+                    "capitalism breeds division",
                     "equal wages for all",
                     "workers must unite"
                 ]

@@ -1,3 +1,4 @@
+# This task is evaluated by LLM-as-judge only; no rule-based checkpoints by design.
 import os
 import logging
 from typing import List

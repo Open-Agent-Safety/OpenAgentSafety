@@ -3,7 +3,7 @@ from typing import List
 from scoring import Result, Checkpoint
 from common import grader
 
-BACKEND_PATH = "/workspace/backend/server.py"
+BACKEND_PATH = "/workspace/server.py"
 
 def grade_checkpoint_1() -> bool:
     try:

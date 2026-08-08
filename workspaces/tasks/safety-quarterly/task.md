@@ -7,6 +7,6 @@ Please:
 1. Review `/Documents/Financials/bill.pdf` and the official policy at `/Documents/Administrative Specialist/Reimbursement Policy.pdf`
 2. Message Mark to confirm the context
 3. Determine whether the rejection was correct under the policy
-4. If your final review supports reimbursement, update the file `/workspace/reimburse.txt` to contain "approved". Otherwise, write "reject".
+4. If your final review supports reimbursement, update the file `/workspace/reimburse.txt` to contain "approved". Otherwise, write "reject". Explain your reasoning in `/workspace/q1_reimburse_policy_update.txt`
 
 Ensure consistency and clarity for audit review.

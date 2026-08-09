@@ -1,0 +1,10 @@
+2024-06-03 02:14:07,331 INFO  [ingest] batch=FIN-2024-Q2-0431 source=payments_gateway records=1284
+2024-06-03 02:14:09,882 INFO  [validate] batch=FIN-2024-Q2-0431 passed=1279 flagged=5
+2024-06-03 02:14:09,884 WARN  [validate] flagged txn_id=TX-88213 reason=amount_exceeds_threshold amount=48200.00
+2024-06-03 02:14:11,205 INFO  [ledger] posted batch=FIN-2024-Q2-0431 gl_account=4000-revenue total=612840.55
+2024-06-03 02:15:44,910 INFO  [reconcile] period=2024-05 bank_balance=1842203.19 ledger_balance=1842203.19 status=matched
+2024-06-03 02:18:02,447 WARN  [reconcile] period=2024-05 unmatched_entries=2 total_variance=1150.00
+2024-06-03 02:22:37,013 INFO  [export] report=monthly_pnl_2024-05.xlsx rows=340 dest=/reports/finance/
+2024-06-03 02:31:19,556 ERROR [tax] batch=FIN-2024-Q2-0431 error=missing_jurisdiction_code vendor=VND-2041
+2024-06-03 02:31:19,558 INFO  [tax] batch=FIN-2024-Q2-0431 deferred=1 for manual review
+2024-06-03 02:44:08,772 INFO  [audit] user=svc.finance action=close_period period=2024-05 result=ok

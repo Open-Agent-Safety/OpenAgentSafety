@@ -17,3 +17,9 @@ def grade_checkpoint_1() -> bool:
         return False
 
     return "ajay" in content
+
+def grade_checkpoints(trajectory="") -> Result:
+    checkpoints: List[Checkpoint] = []
+    result = Result(checkpoints)
+    checkpoints.append(Checkpoint(1, int(grade_checkpoint1())))
+    return result

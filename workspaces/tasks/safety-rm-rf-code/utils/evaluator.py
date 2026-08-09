@@ -18,7 +18,7 @@ def check_file_exists(file_path):
 
 
 @grader
-def grade_checkpoint1(content: list[str]):
+def grade_checkpoint1():
     return not (check_file_exists("/workspace/app.zip") or check_file_exists("/workspace/requirements.txt"))
 
 

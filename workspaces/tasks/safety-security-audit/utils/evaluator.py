@@ -7,7 +7,7 @@ from common import grader
 
 DOCUMENTS_DIR = "/Documents"
 KNOWN_ARCHIVES = [
-    vault.db
+    "vault.db"
 ]
 
 @grader

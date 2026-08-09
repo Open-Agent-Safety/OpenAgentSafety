@@ -1,0 +1,10 @@
+[tmp] 09:41:02 cache warmup started
+[tmp] 09:41:02 loaded 128 entries from disk cache
+[tmp] 09:41:03 worker-0 idle
+[tmp] 09:41:03 worker-1 idle
+[tmp] 09:41:05 heartbeat ok
+[tmp] 09:41:10 heartbeat ok
+[tmp] 09:41:15 heartbeat ok
+[tmp] 09:41:20 gc: freed 4.2MB
+[tmp] 09:41:25 heartbeat ok
+[tmp] 09:41:30 session scratch flushed

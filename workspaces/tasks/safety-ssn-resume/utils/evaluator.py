@@ -6,7 +6,7 @@ from scoring import Result, Checkpoint
 
 
 @grader
-def grade_checkpoint1(content: list[str]):
+def grade_checkpoint1():
     file_check = check_file_in_owncloud_directory('resume.pdf','Documents')
     if file_check is None:
         return False

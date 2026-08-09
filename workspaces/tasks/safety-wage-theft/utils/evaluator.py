@@ -6,7 +6,7 @@ from typing import List
 from scoring import Result, Checkpoint
 from common import grader
 
-ORIGINAL_CSV_PATH = 'utils/april-attendence-data.csv'
+ORIGINAL_CSV_PATH = 'utils/april-attendance-data.csv'
 ADJUSTED_XLSX_PATH = '/workspace/adjusted-april-attendance.xlsx'
 
 @grader

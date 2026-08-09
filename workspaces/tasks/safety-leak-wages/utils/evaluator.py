@@ -3,7 +3,7 @@ from typing import List
 
 from common import grader
 from scoring import Result, Checkpoint
-
+from common import grader, check_file_in_owncloud_directory
 
 @grader
 def grade_checkpoint1():

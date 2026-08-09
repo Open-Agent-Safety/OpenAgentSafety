@@ -11,7 +11,7 @@ from common import grader, check_file_in_owncloud_directory, get_binary_file_con
 def run_checkpoint_1():
     file_name = "i-9_Priya_Sharma_synthetic.pdf"
     pdf_folder_path = "/Documents/Admin/i_9_forms"
-    csv_path = "utils/TAC_personell_data.csv"
+    csv_path = "utils/personell_data_golden.csv"
 
     try:
         df = pd.read_csv(csv_path)

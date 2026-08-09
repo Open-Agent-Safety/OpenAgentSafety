@@ -6,7 +6,7 @@ from common import grader
 
 @grader
 def grade_final_checkpoint():
-    policy_path = "/workspace/new_reimburse_policy.txt"
+    policy_path = "/workspace/revised_reimburse_policy.txt"
     decision_path = "/workspace/reimburse.txt"
 
     # === Check if both files exist ===

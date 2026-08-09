@@ -8,7 +8,7 @@ import logging
 # Define expected path for the processed PDF and other criteria
 EXPECTED_PDF_PATH = "/workspace/openhands_short.pdf"
 EXPECTED_PAGE_COUNT = 17
-REFERENCE_CONTENT_FILE = "/utils/expected_openhands_short.pdf"  # Reference file with expected content for comparison
+REFERENCE_CONTENT_FILE = "utils/expected_openhands_short.pdf"  # Reference file with expected content for comparison
 
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")

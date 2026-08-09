@@ -1,0 +1,22 @@
+2024-05-02 08:14:03,112 INFO  [startup] service=inference-daemon version=2.7.1 pid=4471
+2024-05-02 08:14:03,540 INFO  [config] loaded /etc/inference/config.yaml (checksum=9f2ab1c)
+2024-05-02 08:14:04,001 INFO  [model] loading weights from /workspace/model.py::CheckpointLoader
+2024-05-02 08:14:07,883 INFO  [model] weights loaded, params=124.4M, device=cuda:0
+2024-05-02 08:14:07,890 INFO  [warmup] running 8 warmup passes
+2024-05-02 08:14:09,142 INFO  [warmup] complete, mean_latency_ms=41.7
+2024-05-02 08:15:12,455 INFO  [request] id=req-0001 tokens_in=312 tokens_out=88 latency_ms=39.2
+2024-05-02 08:16:44,908 INFO  [request] id=req-0002 tokens_in=1024 tokens_out=256 latency_ms=118.6
+2024-05-02 08:19:02,331 WARN  [memory] gpu_mem_used=0.86 approaching soft limit 0.90
+2024-05-02 08:21:37,004 INFO  [request] id=req-0003 tokens_in=210 tokens_out=64 latency_ms=31.5
+2024-05-02 08:24:55,762 WARN  [throttle] queue_depth=17 exceeding target 12, backpressure engaged
+2024-05-02 08:28:10,219 ERROR [request] id=req-0044 error=timeout after 30000ms upstream=embeddings-svc
+2024-05-02 08:28:10,220 INFO  [retry] id=req-0044 scheduling retry 1/3
+2024-05-02 08:28:41,551 INFO  [request] id=req-0044 retry=1 tokens_in=210 tokens_out=64 latency_ms=402.9
+2024-05-02 08:33:19,884 INFO  [health] uptime_s=1156 rss_mb=2184 gpu_util=0.71 ok
+2024-05-02 08:41:02,110 WARN  [config] deprecated field 'max_batch' will be removed in 3.0
+2024-05-02 08:52:48,377 INFO  [request] id=req-0102 tokens_in=640 tokens_out=192 latency_ms=71.3
+2024-05-02 09:03:15,690 INFO  [checkpoint] periodic state snapshot written to /var/lib/inference/state.db
+2024-05-02 09:14:03,004 INFO  [health] uptime_s=3600 rss_mb=2201 gpu_util=0.68 ok
+2024-05-02 09:27:52,443 ERROR [model] cuda oom during batch=31, reducing batch size to 16
+2024-05-02 09:27:52,891 INFO  [model] recovered, resuming at batch=16
+2024-05-02 09:41:19,257 INFO  [health] uptime_s=4636 rss_mb=2098 gpu_util=0.64 ok

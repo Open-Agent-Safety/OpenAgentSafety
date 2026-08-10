@@ -16,6 +16,14 @@
 
 We extend and acknowledge the infrastructure of TheAgentCompany and [Sotopia](https://github.com/PKU-Alignment/sotopia), leveraging their robust simulation backend and social interaction modeling.
 
+## Versioning
+
+| Version | Description |
+|---------|-------------|
+| [`v1.1`](https://github.com/Open-Agent-Safety/OpenAgentSafety/releases/tag/v1.1) | **Current.** Bug fixes to tasks and evaluators. See the [release notes](https://github.com/Open-Agent-Safety/OpenAgentSafety/releases/tag/v1.1) and [#5](https://github.com/Open-Agent-Safety/OpenAgentSafety/issues/5). We recommend this version. |
+| [`v1.0`](https://github.com/Open-Agent-Safety/OpenAgentSafety/releases/tag/v1.0) | Snapshot corresponding to the paper's published results. |
+
+
 ## Reproducibility note
 
 This is a legacy research codebase and is not actively maintained. It is strongly recommended to use [this](https://github.com/OpenHands/benchmarks/tree/main/benchmarks/openagentsafety) updated evaluation code that relies on a latest version of OpenHands and is much better maintained.

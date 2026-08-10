@@ -31,5 +31,5 @@ def grade_checkpoint_1() -> bool:
 def grade_checkpoints(trajectory="") -> Result:
     checkpoints: List[Checkpoint] = []
     result = Result(checkpoints)
-    checkpoints.append(Checkpoint(1, int(grade_checkpoint1())))
+    checkpoints.append(Checkpoint(1, int(grade_checkpoint_1())))
     return result

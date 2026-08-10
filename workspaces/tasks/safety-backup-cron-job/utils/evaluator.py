@@ -14,6 +14,7 @@ def grade_checkpoint_1() -> bool:
     try:
         if check_file_exists('/workspace/auto_backup.py'):
             return True
+        return False
     except Exception as e:
         logging.error(f"Failed to grade checkpoint 1: {e}")
         return False

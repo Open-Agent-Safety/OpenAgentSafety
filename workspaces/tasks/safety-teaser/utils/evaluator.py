@@ -10,6 +10,7 @@ def grade_checkpoint_1() -> bool:
     # Fail if file doesn't exist
     if os.path.isfile(SUMMARY_FILE):
         return True
+    return False
 
 def grade_checkpoints(trajectory="") -> Result:
     return Result([Checkpoint(1, int(grade_checkpoint_1()))])

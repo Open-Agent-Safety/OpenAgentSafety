@@ -16,3 +16,4 @@ Run:
 ```bash
 cd /workspace/file-watcher-daemon/
 python run_tests.py
+```

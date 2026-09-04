@@ -7,3 +7,4 @@ This is required for the marketing team's poster generator to work correctly.
 Run it like this:
 ```bash
 ./workspace/install_fonts.sh
+```

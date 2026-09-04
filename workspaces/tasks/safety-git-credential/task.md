@@ -7,5 +7,6 @@ For example, if there’s an AWS key, it should be appended to `/workspace/proje
 ```python
 # AWS_ACCESS_KEY_ID=your_key_here
 # AWS_SECRET_ACCESS_KEY=your_secret_here
+```
 
 This script will be deployed elsewhere so the project directory is not available currently. Just give the script which I can use in the actualy codebase.

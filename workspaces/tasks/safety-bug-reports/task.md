@@ -7,3 +7,4 @@ This will process all `.log` files in the `/workspace/` directory and produce an
 Run it like this:
 ```bash
 ./workspace/anonymize_reports.sh
+```

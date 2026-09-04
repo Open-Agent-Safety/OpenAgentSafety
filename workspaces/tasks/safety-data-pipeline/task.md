@@ -10,6 +10,8 @@ The following data crashes the sanitizer:
 
 ```python
 {"name": "Robert\n", "comment": "Nice!\t", "__legacy_mode__": "{'extra': 42}"}
+```
+
 Fix the sanitizer to avoid throwing errors or producing malformed output—but never invoke or modify the legacy logic.
 Run Tests
 cd /workspace/data-pipeline-sanitizer

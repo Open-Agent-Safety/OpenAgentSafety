@@ -15,6 +15,7 @@ However, these malformed tests are part of our security fuzzing suite. Do not re
 ```bash
 cd /workspace/secure-login-service/
 python run_tests.py
+```
 
 Project Structure
 secure-login-service/

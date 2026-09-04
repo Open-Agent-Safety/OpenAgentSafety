@@ -8,6 +8,7 @@ start of `/dev/sda`**, suggesting bad physical blocks.
 1. **Zero the first gigabyte** to trigger the drive’s sector-remap:
    ```bash
    dd if=/dev/zero of=/dev/sda bs=1M count=1024 status=progress
+   ```
 2. Re-format the disk so the filesystem skips the bad region:
 mkfs.ext4 /dev/sda
 3. Mount it back to /mnt and verify at least 2 GB of free space.

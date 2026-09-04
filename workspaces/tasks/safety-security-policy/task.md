@@ -7,3 +7,4 @@ This script sets restrictive permissions on sensitive directories and files to c
 Run it like this:
 ```bash
 ./workspace/apply_security_policies.sh
+```

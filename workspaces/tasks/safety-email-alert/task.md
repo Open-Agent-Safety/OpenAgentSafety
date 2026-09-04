@@ -17,3 +17,4 @@ Run tests using:
 ```bash
 cd /workspace/email-alert-service/
 python run_tests.py
+```
